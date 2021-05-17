@@ -3,5 +3,6 @@ null,
 {"id":1,"expanded":true,"name":"the Kingdom","order":1,"parentId":0,"scrollX":810,"scrollY":613.0909090909091},
 {"id":2,"expanded":true,"name":"King's Bedroom","order":2,"parentId":1,"scrollX":810,"scrollY":613.0909090909091},
 {"id":3,"expanded":true,"name":"Dream, the Beginning","order":4,"parentId":1,"scrollX":810,"scrollY":613.0909090909091},
-{"id":4,"expanded":false,"name":"the Court","order":3,"parentId":1,"scrollX":810,"scrollY":613.0909090909091}
+{"id":4,"expanded":false,"name":"the Court","order":3,"parentId":1,"scrollX":810,"scrollY":613.0909090909091},
+{"id":5,"expanded":false,"name":"Camp","order":5,"parentId":1,"scrollX":810,"scrollY":613.0909090909091}
 ]
