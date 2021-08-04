@@ -31,25 +31,6 @@
         <script type="text/javascript" src="js/rpg_windows.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
-        
-        <div id="myBoard" style="width: 720px"></div>
-            <button id="startBtn"> Restart </button>
-            <button id="clearBtn"> Clear</button>
-            <script>
-                
-                var myBoard = Chessboard('myBoard', {
-                  draggable: true,
-                  dropOffBoard: 'trash',
-                  sparePieces: true
-                })
-
-                
-                
-                $('#startBtn').on('click', myBoard.start)
-                $('#clearBtn').on('click', myBoard.clear)
-                
-            </script>
-    </body>
 
     <style type="text/css"> CANVAS{image-rendering: crisp-edges;}</style>
     
