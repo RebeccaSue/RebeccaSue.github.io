@@ -14,9 +14,6 @@
       <div id="myBoard" style="width: 60%"></div>
       <br />
 
-      <div id="status"></div>
-      <br />
-
       <h4>Forsyth–Edwards Notation:</h4>
       <div id="fen"></div>
       <br />
@@ -25,7 +22,8 @@
       <div id="pgn"></div>
       <br />
 
-      <button id="startPositionBtn">Start Position</button>
+      <button id="startBtn">Start Position</button>
+      <button id="clearBtn">Clear Board</button>
 
       <script>
         // create a new chessboard
@@ -136,6 +134,8 @@
 
         board = Chessboard("myBoard", config);
 
+        $("#startBtn").on("click", board.start);
+        $("#clearBtn").on("click", board.clear);
         $(window).resize(board.resize);
 
         updateStatus();
