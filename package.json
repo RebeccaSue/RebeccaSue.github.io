@@ -1,12 +1,27 @@
 {
-    "name": "",
-    "main": "index.html",
-    "js-flags": "--expose-gc",
-    "window": {
-        "title": "",
-        "toolbar": false,
-        "width": 816,
-        "height": 624,
-        "icon": "icon/icon.png"
-    }
+  "name": "chess",
+  "main": "index.html",
+  "js-flags": "--expose-gc",
+  "window": {
+    "title": "",
+    "toolbar": false,
+    "width": 816,
+    "height": 624,
+    "icon": "icon/icon.png"
+  },
+  "description": "Checkmate is a 2D chess game with a story mode that helps beginners to become familiar with chess. It is implemented using jQuery.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaSue/RebeccaSue.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebeccaSue/RebeccaSue.github.io/issues"
+  },
+  "homepage": "https://github.com/RebeccaSue/RebeccaSue.github.io#readme"
 }
